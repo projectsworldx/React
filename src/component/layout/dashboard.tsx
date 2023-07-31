@@ -109,19 +109,23 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
   const menuItems: any = [
     {
       text : 'Actor',
-      icon : <InboxIcon />
+      icon : <InboxIcon />,
+      path : '/actors'
     },
     {
       text : 'Film',
-      icon : <MailIcon />
+      icon : <MailIcon />,
+      path : '/films'
     },
     {
       text : 'City',
-      icon : <InboxIcon />
+      icon : <InboxIcon />,
+      path : '/cities'
     },
     {
       text : 'Country',
-      icon : <MailIcon />
+      icon : <MailIcon />,
+      path : '/countries'
     }
   ]
 
